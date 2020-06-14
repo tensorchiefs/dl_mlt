@@ -5,5 +5,6 @@ Example code for the deep transformation models paper: https://arxiv.org/abs/200
 
 For the 1-D toy example, see figure 3 run 1D_toy.R. A more complete r package is in preparation. 
 
-file:///C:/Users/sick/dl%20Dropbox/beate%20sick/presentation.v2/IDP/brown-bag-2020/Architecture_DTM.png
+![Architecture_DTM](https://user-images.githubusercontent.com/10535982/84586369-544d7800-ae19-11ea-90a3-cc0d18faad16.png)
+
 
