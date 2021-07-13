@@ -82,6 +82,13 @@ bernp.eval_h = function(bernp, out_bern, y){
   eval_h(theta_im, y_i = y, beta_dist_h = bernp$beta_dist_h)
 }
 
+# Computes the trafo h'_y(y|x) out_bern is the (unconstrained) output of the NN 
+bernp.eval_h_dash = function(bernp, out_bern, y){
+  theta_im = to_theta(out_bern)
+  eval_h_dash(theta_im, y, beta_dist_h = bernp$beta_dist_h_dash)
+}
+
+
 # Computs NLL out_bern is the (unconstrained ) output of the NN 
 bernp.nll = function(bernp, out_bern, y, y_range=1, out_eta = NULL) {
   theta_im = to_theta(out_bern)
